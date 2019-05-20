@@ -39,6 +39,11 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <!-- redis数据库 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
          <!-- 面向切面编程所需要添加的依赖，在这里主要是用来进行事务的控制 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
