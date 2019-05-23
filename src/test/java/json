@@ -1,0 +1,12 @@
+#启动tomcat
+sudo sh start.sh
+#停止
+sudo sh shutdown.sh
+#启动nginx
+sudo ./nginx
+#查看进程
+ps -ef|grep 
+#正常停止 
+sudo kill -QUIT 主进程号
+# 快速停止  
+sudo kill -TERM 主进程号
