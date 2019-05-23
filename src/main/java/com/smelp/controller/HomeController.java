@@ -25,7 +25,7 @@ public class HomeController {
 	private  UserDao uerDao;
 	@Autowired
 	private RedisUtil redisUtil;
-	private List findAll;
+	
 	
 	 @GetMapping("/test")
 	    public String home(){
